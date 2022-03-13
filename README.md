@@ -8,7 +8,7 @@ Students: Arush Gupta (2019102042)
 Course Instructor: Prof. Zia Abbas
 
 Year: Spring Semester 2022
------
+***
 #### How to run
 - Pre-requisites:
 	- Ng-Spice 

@@ -1,14 +1,4 @@
 #!/bin/bash
-while true; do
-  read -p "DO YOU WANT TO SEE REPORT? " yn
-  case $yn in
-    [Yy]* ) 
-      firefox report_text.html
-      break;;
-    [Nn]* ) break;;
-    *) echo "Please answer Y or N.";;
-  esac
-done
 mkdir {nmos_on,nmos_off,pmos_on,pmos_off}
 python3 scriptWriter.py 
 for i in {nmos_on,nmos_off,pmos_on,pmos_off}
